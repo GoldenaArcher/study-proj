@@ -412,6 +412,12 @@ body {
 .career-type-list a {
   color: #000;
 }
+.core-product-suggestion-bd .promo-course {
+  background: url("../img/图层149.jpg") no-repeat;
+  background-size: auto;
+  width: 464px;
+  height: 320px;
+}
 /* end of career type list */
 /* begin of footer */
 .footer {
