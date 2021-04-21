@@ -56,8 +56,12 @@ body {
   margin-left: 65px;
   padding: 0 8px;
 }
-.menu li:hover {
-  cursor: pointer;
+.menu li a {
+  font-size: 18px;
+  color: #050505;
+}
+.menu li a:hover {
+  color: #00a4ff;
 }
 .menu .active {
   border-bottom: 2px solid #00a4ff;
@@ -109,11 +113,11 @@ body {
 }
 
 /* banner */
-.banner {
+.homepage-banner {
   height: 420px;
   background-color: #1c036c;
 }
-.banner .container {
+.homepage-banner .container {
   position: relative;
   background: url("../img/banner.jpg") no-repeat center center;
   height: 420px;
@@ -463,3 +467,103 @@ body {
   color: #333;
 }
 /* end of footer */
+
+/* begin of career planning */
+/* begin of banner */
+.career-planning-banner {
+  background: url("../img/career-planning-banner.jpg") no-repeat;
+  background-size: cover;
+  height: 370px;
+}
+/* end of banner */
+/* begin of career path */
+.career-path ul li a {
+  padding: 0 20px;
+  border-right: 1px solid #ccc;
+  border-left: 0;
+}
+.career-path ul li:first-child a {
+  padding-left: 10px;
+}
+.career-path ul li:last-child a {
+  border-right: 0;
+  padding-right: 0;
+}
+.career-path .selected {
+  color: #00a4ff;
+  font-weight: 600;
+}
+/* end of career path */
+/* begin of detailed career path */
+.career-path-detail {
+  margin: 10px 0 40px 0;
+}
+.career-level {
+  margin-bottom: 10px;
+  padding: 43px 0 0 0;
+  background-color: #fff;
+  min-height: 100px;
+}
+.career-level > div {
+  float: left;
+}
+.engineer-level {
+  margin: 0 12px 0 28px;
+  text-align: center;
+}
+.engineer-title {
+  margin: 34px 0 39px 0;
+  color: #ba7ce1;
+  font-size: 20px;
+  font-weight: 600;
+}
+.engineer-divider {
+  position: relative;
+}
+.engineer-divider img {
+  position: absolute;
+  top: 8px;
+}
+.career-desc {
+  margin: 0 52px 0 60px;
+  width: 340px;
+}
+.career-desc-hd h3 {
+  margin-bottom: 3px;
+  line-height: 36px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.career-desc-bd .bd-desc {
+  font-size: 14px;
+  color: #666;
+}
+.career-desc-bd .bd-desc p {
+  margin-bottom: 35px;
+}
+.current-price {
+  color: #000;
+  margin-right: 21px;
+}
+.current-amount {
+  color: #ff2d2d;
+}
+.current-amount-in-number {
+  font-size: 19px;
+}
+.original-price {
+  color: #999;
+  text-decoration: line-through;
+}
+.original-amount {
+  color: #ff7c2d;
+}
+.career-path-detail .core-product-suggestion-bd {
+  margin: -20px 0 45px 0;
+}
+.career-path-detail .core-product-suggestion-bd li {
+  box-shadow: 3px 3px 0.5em rgb(0 0 0 / 30%);
+}
+/* end of detailed career path */
+/* end of career planning */
