@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <title>学成网-程序语言设计</title>
+  </head>
+  <body>
+    <!-- begin of header -->
+    <div class="header flex">
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo" />
+      </div>
+      <ul class="menu flex">
+        <li class="homepage"><a href="./index.html">首页</a></li>
+        <li class="courses active"><a href="./all-courses.html">课程</a></li>
+        <li class="career-planning">
+          <a href="./career-planning.html">职业规划</a>
+        </li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" name="" id="" placeholder="输入关键字" />
+        <!-- 不知道为什么css找不到图片……先用行内CSS顶一下 -->
+        <input
+          type="button"
+          value=""
+          style="background: url(./img/fa-search.png)"
+        />
+      </div>
+      <div class="user flex">
+        <div class="user-center">个人中心</div>
+        <div class="alert">
+          <a href="#"><img src="./img/ld.png" alt="" /></a>
+        </div>
+        <div class="profile-img">
+          <img src="./img/pic.png" alt="profile-image" />
+        </div>
+        <div class="username">qq-leishui</div>
+      </div>
+    </div>
+    <!-- end of header -->
+    <!-- begin of banner -->
+    <div class="course-banner">
+      <div class="container clearfix">
+        <div class="course-desc">
+          <div class="course-nav clearfix">
+            <ul>
+              <li class="float-left" class="all-course">
+                <a href="all-courses.html">课程</a>
+              </li>
+              <li class="float-left">\</li>
+              <li class="float-left"><a href="#">编程入门</a></li>
+            </ul>
+          </div>
+          <div class="course-info clearfix">
+            <div class="course-info-hd">
+              <h1>程序语言设计</h1>
+            </div>
+            <div class="course-info-bd">
+              <div class="cource-price clearfix">
+                <div class="special-price float-left">
+                  特惠价格￥<span class="special-price-amount">999</span>
+                </div>
+                <div class="original-price float-left">原价￥1999</div>
+              </div>
+              <div class="course-desc-detail clearfix">
+                <div class="course-action float-left">马上学习</div>
+                <ul class="float-left clearfix">
+                  <li class="float-left">
+                    <h5>难度等级</h5>
+                    <p>中级</p>
+                  </li>
+                  <li class="float-left">
+                    <h5>课程时长</h5>
+                    <p>2小时27分</p>
+                  </li>
+                  <li class="float-left">
+                    <h5>评分</h5>
+                    <p>4.7分</p>
+                  </li>
+                  <li class="float-left">
+                    <h5>授课模式</h5>
+                    <p>录播</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-video">
+          <video controls>
+            <source
+              src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="video-info clearfix">
+            <div class="video-save float-left">
+              <img src="./img/fa-heart-o.png" alt="" />
+              收藏 23
+            </div>
+            <div class="float-right share-course-video">
+              分享
+              <img class="wechat-icon" src="./img/fa-weixin.png" alt="" />
+              <img class="qq-icon" src="./img/fa-qq.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of banner -->
+    <!-- begin of body -->
+    <div class="container course-body clearfix">
+      <div class="float-left">
+        <div class="course-detail clearfix">
+          <ul>
+            <li class="float-left">
+              <a href="#" class="selected">课程介绍</a>
+            </li>
+            <li class="float-left"><a href="#">目录</a></li>
+            <li class="float-left"><a href="#">问答</a></li>
+            <li class="float-left"><a href="#">笔记</a></li>
+            <li class="float-left"><a href="#">代码</a></li>
+          </ul>
+        </div>
+        <div class="course-detail-desc clearfix">
+          <div class="course-detail-desc-hd float-left"><h3>课程简介</h3></div>
+          <div class="course-detail-desc-bd float-right">
+            <div class="course-brief">
+              本课程介绍编程语言的基本概念，重点介绍函数式编程。本课程使用的语言ML，球拍，红宝石作为教学概念的车辆，但真正的意图是教足够的关于如何任何语言“合在一起”，使您更有效的编程在任何语言-和学习新的...
+            </div>
+            <div class="course-brief-more">
+              更多
+              <span class="arrowhead">&#709;</span>
+            </div>
+          </div>
+        </div>
+        <div class="course-detail-desc clearfix">
+          <div class="course-detail-desc-hd float-left"><h3>适用人群</h3></div>
+          <div class="course-detail-desc-bd float-right">
+            本课程假设学生熟悉大多数入门课程所涉及的程序，但它被明确设计成不是一门特别高级的课程。学生应该熟悉变量，条件语句，数组，链表，栈，和递归（递归算法将审查和扩展），和一个接口和实现之间的区别。学生应该渴望用新的语言编写程序。本课程C部分分析了面向对象的基本概念和对比他们的其他语言，用java或密切相关的语言如此熟悉（例如，C
+            #）可能有助于C部分，但它是没有必要的作业。本课程是基于专为第二和第三年本科生设计的课程：不是第一个计算机科学课程，但不是一个高级课程。因此，它当然不会涵盖在编程语言的美丽世界的一切，但它是一个坚实的介绍。它的目的是大开眼界和迷人的学习者寻求“第三或第四编程课程”，并为有更多的经验，谁正在寻找一个明确和精确的编程语言基础的学习者。课程中的作业设计是具有挑战性的，但课程内容需要你所需要的一切。
+            <div class="course-brief-less">
+              更少
+              <span class="arrowhead">&#708;</span>
+            </div>
+          </div>
+        </div>
+        <div class="course-detail-desc clearfix">
+          <div class="course-detail-desc-hd float-left"><h3>课程制作</h3></div>
+          <div class="course-detail-desc-bd float-right">
+            <div class="instructor clearfix">
+              <div class="instroctor-profile float-left"></div>
+              <div class="instructor-desc float-right">
+                <div>
+                  <span class="taught-by">教学方：</span>
+                  <span class="instructor-nanme">毛老师</span>
+                </div>
+                <div class="instructor-experience">
+                  <span>高级前端开发工程师</span>
+                  <span>10年开发经验</span>
+                </div>
+                <div class="instructor-experience-details">
+                  JavaEE开发与教学多年，精通JavaEE技术体系，对流行框架JQuery、DWR、Struts1/2，Hibernate，Spring，MyBatis、JBPM、Lucene等有深入研究。授课逻辑严谨，条理清晰，注重学生独立解决问题的能力。
+                </div>
+                <div class="course-detail-requirement clearfix">
+                  <ul>
+                    <li class="clearfix">
+                      <div class="course-detail-requirement-hd float-left">
+                        难度等级
+                      </div>
+                      <div class="course-detail-requirement-bd float-left">
+                        中级
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="course-detail-requirement-hd float-left">
+                        课程时长
+                      </div>
+                      <div class="course-detail-requirement-bd float-left">
+                        8-16小时/周，共4周
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="course-detail-requirement-hd float-left">
+                        如何通过
+                      </div>
+                      <div class="course-detail-requirement-bd float-left">
+                        通过所有的作业及考核，作业共4份，考核为一次终极考核
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="course-detail-requirement-hd float-left">
+                        用户评分
+                      </div>
+                      <div class="course-detail-requirement-bd float-left">
+                        <span>平均用户评分 4.9</span>
+                        <span>查看全部评价</span>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="course-detail-requirement-hd float-left">
+                        课程价格
+                      </div>
+                      <div class="course-detail-requirement-bd float-left">
+                        <div class="float-left">特惠价格</div>
+                        <div class="current-amount float-left">￥</div>
+                        <div
+                          class="current-amount current-amount-in-number float-left"
+                        >
+                          999
+                        </div>
+                        <div class="original-price float-left">原价1999</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="course-detail-desc clearfix">
+          <div class="course-detail-desc-hd float-left"><h3>常见问题</h3></div>
+          <div class="course-detail-desc-bd float-right">
+            <ul>
+              <li>
+                <div class="common-question-hd">
+                  <span class="arrowhead">&#708;</span>
+                  我什么时候能够访问课程视频与作业？
+                </div>
+                <div class="common-question-bd">
+                  课程安排灵活，课程费用支付提供180天全程准入和资格证书。自定进度课程建议的最后期限，但你不会受到惩罚错过期限，只要你赚你的证书在180天内。以会话为基础的课程可能要求你在截止日期前保持正轨，但如果你落后了，你可以切换到以后的会议，你完成的任何工作将与你转移。
+                  <hr />
+                </div>
+              </li>
+              <li>
+                <div class="common-question-hd">
+                  <span class="arrowhead">&#709;</span>
+                  如何需要额外的时间来完成课程会怎么样？
+                </div>
+                <div class="common-question-bd"><hr /></div>
+              </li>
+              <li>
+                <div class="common-question-hd">
+                  <span class="arrowhead">&#709;</span>
+                  我支付次课程之后会得到什么？
+                </div>
+                <div class="common-question-bd"><hr /></div>
+              </li>
+              <li>
+                <div class="common-question-hd">
+                  <span class="arrowhead">&#709;</span>
+                  退款条例是如何规定的？
+                </div>
+                <div class="common-question-bd"><hr /></div>
+              </li>
+              <li>
+                <div class="common-question-hd">
+                  <span class="arrowhead">&#709;</span>
+                  有助学金？
+                </div>
+                <div class="common-question-bd"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="float-right comment-box">
+        <div class="comment-detail clearfix">
+          <div class="comment-hd selected">评论</div>
+          <div class="comment-bd">
+            <ul>
+              <li>
+                <div class="comment-detail-hd clearfix">
+                  <div class="comment-user float-left">
+                    <div class="comment-profile-pic">
+                      <img src="./img/pic.png" alt="" />
+                    </div>
+                    <div class="comment-uername">自己人</div>
+                    <div class="comment-user-ranking">
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="comment-date float-right">
+                    <time>2017-07-11</time>
+                  </div>
+                </div>
+                <div class="comment-detail-bd">
+                  有趣的课程，可以对函数式编程产生初步的认识，值的一学。获得的毕业证书企业也……
+                </div>
+              </li>
+              <li>
+                <div class="comment-detail-hd clearfix">
+                  <div class="comment-user float-left">
+                    <div class="comment-profile-pic">
+                      <img src="./img/pic.png" alt="" />
+                    </div>
+                    <div class="comment-uername">自己人</div>
+                    <div class="comment-user-ranking">
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="comment-date float-right">
+                    <time>2017-07-11</time>
+                  </div>
+                </div>
+                <div class="comment-detail-bd">
+                  特别实用，想再学一次巩固一下！毛老师讲解很细致啊
+                </div>
+              </li>
+              <li>
+                <div class="comment-detail-hd clearfix">
+                  <div class="comment-user float-left">
+                    <div class="comment-profile-pic">
+                      <img src="./img/pic.png" alt="" />
+                    </div>
+                    <div class="comment-uername">自己人</div>
+                    <div class="comment-user-ranking">
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="comment-date float-right">
+                    <time>2017-07-11</time>
+                  </div>
+                </div>
+                <div class="comment-detail-bd">
+                  特别实用，想再学一次巩固一下！毛老师讲解很细致啊
+                </div>
+              </li>
+              <li>
+                <div class="comment-detail-hd clearfix">
+                  <div class="comment-user float-left">
+                    <div class="comment-profile-pic">
+                      <img src="./img/pic.png" alt="" />
+                    </div>
+                    <div class="comment-uername">自己人</div>
+                    <div class="comment-user-ranking">
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="comment-date float-right">
+                    <time>2017-07-11</time>
+                  </div>
+                </div>
+                <div class="comment-detail-bd">8错8错</div>
+              </li>
+              <li>
+                <div class="comment-detail-hd clearfix">
+                  <div class="comment-user float-left">
+                    <div class="comment-profile-pic">
+                      <img src="./img/pic.png" alt="" />
+                    </div>
+                    <div class="comment-uername">自己人</div>
+                    <div class="comment-user-ranking">
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                      <img src="./img/多边形2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="comment-date float-right">
+                    <time>2017-07-11</time>
+                  </div>
+                </div>
+                <div class="comment-detail-bd">8错8错</div>
+              </li>
+            </ul>
+            <div class="review clearfix">
+              <div class="review-count float-left">231人评价</div>
+              <div class="to-review float-right">去评价 &gt;</div>
+            </div>
+          </div>
+        </div>
+        <div class="ranking-detail">
+          <div class="comment-hd selected">2313人在学习该课程</div>
+          <div class="comment-bd studied-student clearfix">
+            <ul>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+              <li>
+                <div class="student float-left">
+                  <div class="student-profile">
+                    <img src="./img/pic.png" alt="" />
+                  </div>
+                  <div class="student-name">bait^^</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of body -->
+    <!-- begin of footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="copyright">
+          <img src="./img/logo.png" alt="logo" />
+          <p>
+            学成在线致力于普及中国最好的教育。它与中国一流大学和机构合作，提供在线课程。<br />
+            &copy; 2017年 XTGG Inc. 保留所有权利。-沪ICP备11111111号
+          </p>
+          <a href="#" class="app">下载APP</a>
+        </div>
+        <div class="links">
+          <dl>
+            <dt>关于学成网</dt>
+            <dd><a href="#">关于</a></dd>
+            <dd><a href="#">团队管理</a></dd>
+            <dd><a href="#">工作机会</a></dd>
+            <dd><a href="#">客户服务</a></dd>
+            <dd><a href="#">帮助</a></dd>
+          </dl>
+          <dl>
+            <dt>关于学成网</dt>
+            <dd><a href="#">关于</a></dd>
+            <dd><a href="#">团队管理</a></dd>
+            <dd><a href="#">工作机会</a></dd>
+            <dd><a href="#">客户服务</a></dd>
+            <dd><a href="#">帮助</a></dd>
+          </dl>
+          <dl>
+            <dt>关于学成网</dt>
+            <dd><a href="#">关于</a></dd>
+            <dd><a href="#">团队管理</a></dd>
+            <dd><a href="#">工作机会</a></dd>
+            <dd><a href="#">客户服务</a></dd>
+            <dd><a href="#">帮助</a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- end of footer -->
+  </body>
+</html>

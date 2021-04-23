@@ -567,3 +567,262 @@ body {
 }
 /* end of detailed career path */
 /* end of career planning */
+
+/* begin of single course */
+.course-banner {
+  background: url("../img/course-banner.png") no-repeat;
+  background-size: cover;
+  color: #f3f5f7;
+  margin-bottom: 30px;
+}
+.course-banner .container {
+  box-sizing: border-box;
+  padding: 20px 102px 28px 15px;
+}
+.course-desc {
+  float: left;
+}
+.course-video {
+  float: right;
+  width: 270px;
+}
+.course-video video {
+  width: 100%;
+  height: 156px;
+  margin-bottom: 16px;
+}
+.video-info img {
+  height: 14px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.video-info {
+  font-size: 14px;
+  font-style: italic;
+}
+.video-save {
+  width: 160px;
+  border-right: 1px solid #dadada;
+}
+.video-save img {
+  margin: 0 3px 0 18px;
+}
+.share-course-video img {
+  margin-right: 10px;
+}
+.wechat-icon {
+  margin-left: 14px;
+}
+.course-nav {
+  margin-bottom: 10px;
+}
+.course-nav li {
+  margin-right: 5px;
+}
+.course-nav li,
+a {
+  color: #837e8a;
+  font-size: 14px;
+}
+.course-nav li:first-child a {
+  color: #ebe9ed;
+}
+.course-info-hd {
+  margin-bottom: 12px;
+}
+.cource-price {
+  margin-bottom: 52px;
+}
+.special-price {
+  color: #ca50f8;
+  margin-right: 12px;
+}
+.special-price-amount {
+  font-weight: 600;
+}
+.common-question-hd {
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 16px;
+}
+.course-action {
+  margin-right: 32px;
+  background-color: #00a4ff;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.course-desc-detail li {
+  padding: 0 30px 0 36px;
+  border-right: 1px solid #999;
+}
+.course-desc-detail li:last-child {
+  border-right: 0;
+}
+.course-desc-detail li h5 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.course-detail {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.course-detail li {
+  margin: 0 25px 0 15px;
+}
+.course-body .selected {
+  color: #00a4ff;
+  font-weight: 600;
+}
+.course-detail-desc {
+  width: 955px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.course-detail-desc-hd {
+  box-sizing: border-box;
+  width: 140px;
+  padding: 35px 30px 0 35px;
+}
+.course-detail-desc-hd h3 {
+  font-size: 18px;
+}
+.course-detail-desc-bd {
+  position: relative;
+  box-sizing: border-box;
+  width: 815px;
+  padding: 40px 35px 32px 0;
+  color: #666;
+  font-size: 14px;
+}
+.course-brief-more,
+.course-brief-less {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  color: #00a4ff;
+}
+.instroctor-profile {
+  background: url("../img/2015122414122700.png") no-repeat 20% 20%;
+  background-size: 110%;
+  margin-right: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.instructor-desc {
+  width: 630px;
+}
+.taught-by {
+  font-weight: 600;
+}
+.instructor-nanme {
+  font-size: 18px;
+}
+.instructor-experience span {
+  color: #5f1898;
+  margin-right: 1px;
+}
+.arrowhead {
+  color: #1fafff;
+}
+.instructor-experience-details {
+  margin: 18px 0 38px;
+}
+.course-detail-desc-bd li {
+  margin-bottom: 20px;
+}
+.course-detail-requirement-hd {
+  margin-right: 25px;
+  font-weight: 600;
+}
+.common-question-bd {
+  margin-bottom: 22px;
+  padding-left: 15px;
+}
+.common-question-bd hr {
+  margin-top: 22px;
+}
+.comment-detail {
+  margin-bottom: 38px;
+}
+.comment-box {
+  width: 228px;
+}
+.comment-box > div {
+  position: relative;
+}
+.comment-bd {
+  padding: 20px 18px 0 17px;
+  background-color: #fff;
+}
+.comment-hd {
+  margin: 0 0 20px 18px;
+}
+.comment-bd li {
+  padding: 20px 0 16px 0;
+  border-bottom: 1px solid #d7d7d7;
+}
+.comment-bd li:first-child {
+  padding-top: 0;
+}
+.comment-bd li:last-child {
+  border-bottom: 0;
+}
+.review {
+  margin: 24px 10px 0;
+  padding-bottom: 14px;
+}
+.to-review {
+  color: #7db4d2;
+}
+.comment-bd {
+  color: #666;
+  font-size: 14px;
+}
+.comment-detail-hd {
+  margin-bottom: 15px;
+  position: relative;
+}
+.comment-profile-pic img {
+  position: absolute;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.comment-uername,
+.comment-user-ranking {
+  margin-left: 50px;
+}
+.comment-user-ranking img {
+  margin-right: -5px;
+}
+.comment-date {
+  font-size: 12px;
+  line-height: 20px;
+}
+.student {
+  text-align: center;
+  margin: 0 10px 20px 0;
+}
+.student-profile img {
+  border-radius: 50%;
+}
+.student-name {
+  color: #07c;
+}
+.studied-student li {
+  padding: 0 0 0 0;
+  border-bottom: 0;
+  font-size: 12px;
+}
+.studied-student li:nth-child(4n) > .student {
+  margin-right: 0;
+}
+/* end of single course */
