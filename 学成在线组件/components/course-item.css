@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: lightblue;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.flex {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+/* end of general css */
+
+.single-demo {
+  padding: 50px;
+}
+
+/* begin of component css */
+.course-item {
+  position: relative;
+  margin: 0 15px 12px 0;
+  width: 228px;
+  height: 270px;
+  background-color: #fff;
+}
+.course-item-img img {
+  width: 100%;
+}
+.course-item-desc {
+  padding: 20px;
+}
+.course-item h4 {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #050505;
+  font-weight: 400;
+}
+.course-item-desc-bd {
+  font-size: 12px;
+  color: #999;
+}
+.course-item-level {
+  margin-right: 5px;
+  color: #ff7c2d;
+}
+.course-item-shadow {
+  box-shadow: 3px 3px 0.5em rgb(0 0 0 / 30%);
+}
+
+/* sample rows */
+.four-per-row {
+  margin-left: 50px;
+  background-color: lightgoldenrodyellow;
+  width: 960px;
+}
+.four-per-row li {
+  float: left;
+}
+.four-per-row li:nth-child(4n) .course-item {
+    margin-right: 0;
+}
+
+.five-per-row {
+    margin: 50px;
+    background-color: lightgreen;
+}
+.five-per-row li {
+    float: left;
+}
