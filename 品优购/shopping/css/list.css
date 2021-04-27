@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?e7brvp');
+    src:  url('../fonts/icomoon.eot?e7brvp#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?e7brvp') format('truetype'),
+      url('../fonts/icomoon.woff?e7brvp') format('woff'),
+      url('../fonts/icomoon.svg?e7brvp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.sk {
+    position: absolute;
+    top: 39px;
+    left: 185px;
+    width: 73px;
+    height: 33px;
+    border-left: 1px solid #c81523;
+    line-height: 33px;
+    text-align: center;
+}
+.sk_list,.sk_con{
+    height: 45px;
+    line-height: 45px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li,.sk_con ul li {
+    float: left;
+}
+.sk_list ul li,.sk_con ul li h4 {
+    padding: 0 30px;
+    font-size: 16px;
+    color: black;
+}
+.sk_con ul li a {
+    /* display: block; */
+    padding: 0 23px;
+}
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e905';
+}
+.sk_container {
+    overflow: hidden;
+}
+.sk_hd{
+    height: 120px;
+}
+.sk_bd ul li {
+    float: left;
+    height: 462px;
+    width: 291px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li p {
+    margin: 2px 10px;
+}
+.price {
+    margin-left: 10px;
+    height: 36px;
+    width: 137px;
+    line-height: 36px;
+}
+.price .now {
+    font-size: 22px;
+    color: #e60012;
+}
+.price .last {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.jindutiao {
+    margin-left: 10px;
+    overflow: hidden;
+}
+.jindutiao h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.jindutiao h5 span {
+    color: #e12228;
+}
+.jindutiao div {
+    float: left;
+    margin: 5px;
+    height: 13px;
+    width: 132px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+}
+.jindutiao div span {
+    float: left;
+    height: 100%;
+    width: 87%;
+    background-color: #ed282e;
+    border-radius: 6px;
+}
+.qiang {
+    height: 50px;
+    margin-top: 10px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #b1191a;
+    font-size: 20px;
+}
+.qiang a {
+    color: #ffffff;
+}

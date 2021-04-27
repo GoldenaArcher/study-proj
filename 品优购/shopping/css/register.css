@@ -1,0 +1,147 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部 */
+.header {
+    position: relative;
+    height: 82px;
+    border-bottom: 2px solid #c61a2a;
+}
+/* 左上角logo */
+.logo {
+    position: absolute;
+    top: 15px;
+    width: 220px;
+    height: 56px;
+    background-color: aqua;
+    background: url(../images/logo_03.png) no-repeat;
+}
+/* 注册区域 */
+.registerarea {
+    height: 525px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+.registerarea h3 {
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+    background-color: #ececec;
+}
+.registerarea h3 p {
+    float: left;
+}
+.registerarea .login {
+    float: right;
+    font-size: 14px;
+    color: #333333;
+}
+.registerarea .login a {
+    color: #c81623;
+}
+.reg_form {
+    width: 576px;
+    height: 406px;
+    margin: 35px auto 0;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 95px;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.reg_form ul liinput {
+    width: 242px;
+    height: 27px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #c81523;
+}
+.error_icon {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(../images/error_03.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.safe {
+    padding-left: 175px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 95px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 70px;
+}
+.btn {
+    margin-left: 105px;
+}
+/* 底部 */
+footer {
+    text-align: center;
+}
+.links {
+    overflow: hidden;
+}
+.links ul {
+    padding-left: 100px;
+}
+.links ul li {
+    float: left;
+}
+.links ul li a {
+    display: block;
+    padding: 15px;
+}
+.links ul li:nth-child(even) {
+    height: 12px;
+    width: 1px;
+    background-color: #999999;
+    margin-top: 18px;
+}
+.copyright {
+    line-height: 20px;
+}
+.copyright p {
+    margin-bottom: 2px;
+}

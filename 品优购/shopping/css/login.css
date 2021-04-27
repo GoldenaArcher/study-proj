@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?e7brvp');
+    src:  url('../fonts/icomoon.eot?e7brvp#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?e7brvp') format('truetype'),
+      url('../fonts/icomoon.woff?e7brvp') format('woff'),
+      url('../fonts/icomoon.svg?e7brvp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部 */
+header {
+    position: relative;
+    height: 82px;
+    /* border-bottom: 2px solid #c61a2a; */
+}
+.logo a {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 15px;
+    background: url(../images/logo_03.png);
+}
+/* 登录部分 */
+.loginarea {
+    position: relative;
+    height: 486px;
+    background: url(../images/login_bg_02.png) no-repeat center;
+}
+.log_form {
+    position: absolute;
+    right: 180px;
+    top: 60px;
+    background-color: #ffffff;
+    width: 380px;
+    height: 364px;
+}
+.chooce {
+    height: 64px;
+    line-height: 64px;
+}
+.chooce ul li:first-child{
+    position: relative;
+    float: left;
+    padding: 0 70px 0 48px;
+}
+.chooce ul li:first-child::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 23px;
+    width: 1px;
+    height: 18px;
+    background-color: #ededed;
+}
+.chooce ul li:last-child {
+    float: right;
+    padding: 0 48px 0 70px;
+}
+.chooce ul li a {
+    font-size: 18px;
+}
+.chooce ul li:last-child a {
+    color: #c81623;
+}
+.tishi {
+    width: 305px;
+    height: 30px;
+    background-color: #fffdee;
+    margin-left: 38px;
+    border: 1px solid #f5eecf;
+    line-height: 28px;
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+}
+.log_form>input {
+    margin-left: 38px;
+    width: 305px;
+    height: 36px;
+    border: 1px solid #bbbaba;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 34px;   
+    font-size: 14px;
+    color: #b2b2b2;
+}
+.forget {
+    margin-left: 38px;
+    margin-top: 10px;
+    width: 305px;
+    height: 16px;
+    line-height: 16px;
+    padding-right: 2px;
+}
+.forget input {
+    /* float: left; */
+    vertical-align: middle;
+    margin-top: -1px;
+    font-size: 12px;
+    color: #b2b2b2;
+}
+.forget a {
+    float: right;
+    font-size: 12px;
+    color: #333333;
+}
+.enter {
+    width: 305px;
+    height: 42px;
+    margin-left: 38px;
+    margin-top: 20px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 42px;
+}
+.enter a {
+    font-size: 16px;
+    color: #ffffff;
+}
+.reg {
+    margin-left: 38px;
+    margin-top: 16px;
+}
+.reg img {
+    margin-right: 6px;
+}
+.reg a {
+    font-size: 14px;
+    color: #1474af;
+}
+/* 底部 */
+footer {
+    text-align: center;
+}
+.links {
+    overflow: hidden;
+}
+.links ul {
+    padding-left: 100px;
+}
+.links ul li {
+    float: left;
+}
+.links ul li a {
+    display: block;
+    padding: 15px;
+}
+.links ul li:nth-child(even) {
+    height: 12px;
+    width: 1px;
+    background-color: #999999;
+    margin-top: 18px;
+}
+.copyright {
+    line-height: 20px;
+}
+.copyright p {
+    margin-bottom: 2px;
+}
