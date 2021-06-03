@@ -1,0 +1,38 @@
+.footer {
+  height: 100px;
+}
+.footer .container {
+  justify-content: space-between;
+}
+/* copyright */
+.copyright p {
+  font-size: 12px;
+  color: #666;
+  margin: 20px 0 15px 0;
+}
+.download-app {
+  display: inline-block;
+  width: 118px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  border: 1px solid #00a4ff;
+  font-style: 16px;
+  color: #00a4ff;
+}
+/* copyright */
+/* footer-links */
+.footer-links dl {
+  margin-left: 80px;
+  padding: 0 30px;
+  color: #333;
+}
+.footer-links dt {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.footer-links dd a {
+  font-size: 12px;
+  color: #333;
+}
+/* footer-links */
