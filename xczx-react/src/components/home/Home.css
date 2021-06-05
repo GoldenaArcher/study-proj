@@ -1,0 +1,91 @@
+.homepage {
+  height: 1000px;
+}
+/* banner */
+.homepage-banner {
+  height: 420px;
+  background-color: #1c036c;
+}
+.slick-slide img {
+  margin: auto;
+}
+.homepage-banner .course-content {
+  top: 0;
+  width: inherit;
+}
+.course-sub-nav {
+  box-sizing: border-box;
+  width: 190px;
+  height: 420px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.course-sub-nav li {
+  padding: 0 20px;
+  line-height: 44px;
+}
+.course-sub-nav li:nth-child(1) {
+  padding-top: 13px;
+}
+.course-sub-nav a {
+  color: #fff;
+}
+.course-sub-nav a::after {
+  content: '>';
+  position: absolute;
+  right: 20px;
+}
+.course-sub-nav li:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.my-course-list {
+  margin-top: 50px;
+  height: 300px;
+  background-color: #fff;
+}
+.my-course-list dt {
+  width: 228px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #9bceea;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.my-course-list dd {
+  padding: 0 18px;
+  color: #5a5a5a;
+  height: 48px;
+  border-bottom: 2px solid #efefef;
+  margin-bottom: 15px;
+}
+.my-course-list .active h4,
+.my-course-list .active p,
+.my-course-list dd:hover p {
+  color: #00a4ff;
+}
+.my-course-list dd:last-child {
+  margin-bottom: 10px;
+  border: 0;
+}
+.my-course-list p {
+  font-size: 12px;
+  color: #ababab;
+}
+.my-course-list-button {
+  width: 198px;
+  height: 38px;
+  margin-left: 18px;
+}
+/* banner */
+/* suggestion card */
+.modify-interested-field a {
+  padding-right: 0;
+  font-size: 14px;
+  color: #00a4ff;
+  border: 0;
+}
+/* suggestion card */

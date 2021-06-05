@@ -6,7 +6,7 @@ import FooterLinks from './FooterLinks';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container flex">
+      <div className="container flex space-between">
         <Copyright />
         <FooterLinks />
       </div>

@@ -4,7 +4,7 @@ import './header.css';
 import Logo from '../logo';
 import Nav from './nav';
 import SearchBar from './searchBar';
-import UserProvile from './userProfile';
+import UserProfile from './userProfile';
 
 const index = () => {
   return (
@@ -12,7 +12,7 @@ const index = () => {
       <Logo />
       <Nav />
       <SearchBar />
-      <UserProvile />
+      <UserProfile />
     </header>
   );
 };

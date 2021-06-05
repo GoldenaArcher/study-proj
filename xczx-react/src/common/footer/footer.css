@@ -1,8 +1,7 @@
 .footer {
-  height: 100px;
-}
-.footer .container {
-  justify-content: space-between;
+  height: 415px;
+  background-color: #fff;
+  margin-top: 15px;
 }
 /* copyright */
 .copyright p {
@@ -11,14 +10,8 @@
   margin: 20px 0 15px 0;
 }
 .download-app {
-  display: inline-block;
   width: 118px;
   height: 33px;
-  text-align: center;
-  line-height: 33px;
-  border: 1px solid #00a4ff;
-  font-style: 16px;
-  color: #00a4ff;
 }
 /* copyright */
 /* footer-links */

@@ -15,7 +15,10 @@
 }
 .nav li {
   margin-left: 65px;
-  padding: 0 8px;
+  padding: 8px;
+}
+.active-nav {
+  border-bottom: 2px solid #00a4ff;
 }
 /* nav */
 /* search bar */
