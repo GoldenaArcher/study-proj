@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/study-proj/xczx-react/static/css/main.1ed1e943.chunk.css",
+    "main.js": "/study-proj/xczx-react/static/js/main.649e516c.chunk.js",
+    "main.js.map": "/study-proj/xczx-react/static/js/main.649e516c.chunk.js.map",
+    "runtime-main.js": "/study-proj/xczx-react/static/js/runtime-main.d0af5989.js",
+    "runtime-main.js.map": "/study-proj/xczx-react/static/js/runtime-main.d0af5989.js.map",
+    "static/css/2.6b560088.chunk.css": "/study-proj/xczx-react/static/css/2.6b560088.chunk.css",
+    "static/js/2.5d204f53.chunk.js": "/study-proj/xczx-react/static/js/2.5d204f53.chunk.js",
+    "static/js/2.5d204f53.chunk.js.map": "/study-proj/xczx-react/static/js/2.5d204f53.chunk.js.map",
+    "index.html": "/study-proj/xczx-react/index.html",
+    "static/css/2.6b560088.chunk.css.map": "/study-proj/xczx-react/static/css/2.6b560088.chunk.css.map",
+    "static/css/main.1ed1e943.chunk.css.map": "/study-proj/xczx-react/static/css/main.1ed1e943.chunk.css.map",
+    "static/js/2.5d204f53.chunk.js.LICENSE.txt": "/study-proj/xczx-react/static/js/2.5d204f53.chunk.js.LICENSE.txt",
+    "static/media/andriod-hybrid.c4d13055.png": "/study-proj/xczx-react/static/media/andriod-hybrid.c4d13055.png",
+    "static/media/andriod.7fdc5aa5.png": "/study-proj/xczx-react/static/media/andriod.7fdc5aa5.png",
+    "static/media/angular.8addedc9.png": "/study-proj/xczx-react/static/media/angular.8addedc9.png",
+    "static/media/banner.5ed10d84.jpg": "/study-proj/xczx-react/static/media/banner.5ed10d84.jpg",
+    "static/media/php.b83d39b6.png": "/study-proj/xczx-react/static/media/php.b83d39b6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0af5989.js",
+    "static/css/2.6b560088.chunk.css",
+    "static/js/2.5d204f53.chunk.js",
+    "static/css/main.1ed1e943.chunk.css",
+    "static/js/main.649e516c.chunk.js"
+  ]
+}
