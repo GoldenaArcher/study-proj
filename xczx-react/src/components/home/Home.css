@@ -1,5 +1,5 @@
 .homepage {
-  height: 1000px;
+  height: 2000px;
 }
 /* banner */
 .homepage-banner {
@@ -89,3 +89,31 @@
   border: 0;
 }
 /* suggestion card */
+
+/* main */
+.homepage-main {
+  margin-top: 30px;
+}
+/* main */
+
+/* subnav */
+/* mid content */
+.sub-header ul a {
+  font-size: 14px;
+  width: 32px;
+  margin-right: 72px;
+}
+/* check more */
+.sub-header a {
+  font-size: 12px;
+  color: #a5a5a5;
+  margin: 0 30px 0 0;
+}
+.sub-header a:hover {
+  color: #00a4ff;
+  cursor: pointer;
+}
+.sub-header .selected {
+  color: #00a4ff;
+}
+/* subnav */

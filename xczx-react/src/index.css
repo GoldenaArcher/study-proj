@@ -28,7 +28,7 @@ input {
 }
 
 li:hover a,
-a:hover, 
+a:hover,
 .card a:hover {
   color: #00a4ff;
   cursor: pointer;

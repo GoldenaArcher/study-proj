@@ -1,0 +1,33 @@
+.course-item {
+  width: 228px;
+  height: 270px;
+  background-color: #fff;
+  margin: 0 15px 15px 0;
+}
+.course-item:hover {
+  cursor: pointer;
+}
+.course-img {
+  width: 100%;
+}
+.course-item h4 {
+  margin: 20px;
+  font-size: 14px;
+  color: #050505;
+  font-weight: 400;
+}
+.course-info {
+  margin: 0 20px;
+  font-size: 12px;
+  color: #999;
+}
+.course-level {
+  color: #ff2c2d;
+}
+.new-course,
+.hot-course {
+  top: 5px;
+  right: -4px;
+  width: 40px;
+  height: 24px;
+}

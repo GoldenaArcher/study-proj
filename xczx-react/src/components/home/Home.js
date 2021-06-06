@@ -2,7 +2,7 @@ import React from 'react';
 import HomeBanner from './homeCarousel';
 import './Home.css';
 import FieldSuggestion from './fieldSuggestion/fieldSuggestion';
-import SubHeader from './subHeader';
+import CourseSuggestion from './CourseSuggestion';
 
 const Home = () => {
   return (
@@ -10,11 +10,9 @@ const Home = () => {
       <HomeBanner />
       <div className="container">
         <FieldSuggestion />
-        <SubHeader
-          subHeaderName="编程入门"
-          midConent={[1, 2, 3]}
-          checkMore='true'
-        />
+        <div className="homepage-main">
+          <CourseSuggestion />
+        </div>
       </div>
     </div>
   );
