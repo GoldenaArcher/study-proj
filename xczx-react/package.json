@@ -1,7 +1,6 @@
 {
   "name": "xczx-react",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://goldenaarcher.com/study-proj/xczx-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
